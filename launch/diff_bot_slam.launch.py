@@ -21,7 +21,7 @@ def generate_launch_description():
     declare_slam_config_path = DeclareLaunchArgument(
         'slam_config_path',
         default_value=os.path.join(get_package_share_directory('diff_bot_launch'),
-                                   'config', 'mapper_params_online_async.yaml'),
+                                   'config', 'diff_bot_slam_toolbox.yaml'),
         description='Full path to the ROS2 parameters file to use for the slam_toolbox node')
 
     declare_rviz_config_path = DeclareLaunchArgument(
