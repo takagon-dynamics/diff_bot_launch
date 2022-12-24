@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>diff_bot_launch</name>
+  <version>0.0.0</version>
+  <description>The diff_bot_launcher package</description>
+  <maintainer email="beike315@icloud.com">Tatsuhiro Ikebe</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
+
+  <depend>diff_bot_control</depend>
+  <depend>diff_bot_description</depend>
+  <depend>diff_bot_navigation</depend>
+  <depend>diff_bot_slam</depend>
+
+  <depend>teleop_twist_joy</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
