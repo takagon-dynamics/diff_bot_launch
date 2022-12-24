@@ -10,7 +10,6 @@ from launch_ros.actions import Node
 
 
 def generate_launch_description():
-    joy_config = LaunchConfiguration('joy_config')
     joy_dev = LaunchConfiguration('joy_dev')
     config_filepath = LaunchConfiguration(
         'config_filepath')
